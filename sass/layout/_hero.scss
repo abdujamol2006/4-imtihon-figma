@@ -1,0 +1,133 @@
+.main-container {
+  padding-inline: 130px;
+  background: linear-gradient(
+    168deg,
+    rgb(52, 201, 182) 35%,
+
+    rgb(248, 251, 255) 0%
+  );
+}
+.main-title {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 53px;
+  letter-spacing: 0%;
+}
+.main-p {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0%;
+}
+.main_desc {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  padding-top: 135px;
+  padding-bottom: 300px;
+}
+.hero1 {
+  display: flex;
+}
+.hero1-img {
+  position: relative;
+  width: 230px;
+  height: 475px;
+  left: 450px;
+  top: 150px;
+  border-radius: 25px;
+}
+.hero2 {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+  background: rgb(248, 251, 255);
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //padding-left: 120px;
+  gap: 25px;
+  background: rgb (248, 251, 255);
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Rectangle 6 */
+  width: 233px;
+  height: 258px;
+  box-shadow: 0px 4px 15px 1px rgba(0, 0, 0, 0.25);
+  background: rgb(255, 255, 255);
+  padding-inline: 20px;
+}
+.card2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Rectangle 6 */
+  width: 233px;
+  height: 258px;
+  box-shadow: 0px 4px 15px 1px rgba(0, 0, 0, 0.25);
+  background: rgb(199, 242, 255);
+  padding-inline: 20px;
+}
+.c-img {
+  width: 100px;
+}
+.card-title {
+  color: rgb(0, 0, 0);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0%;
+  margin-bottom: 13px;
+}
+.card-p {
+  color: rgb(103, 100, 100);
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 12px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.hero3 {
+  display: flex;
+  margin-top: 70px;
+  align-items: center;
+  gap: 200px;
+  margin-bottom: 50px;
+}
+.hero3-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.hero3-title {
+  color: rgb(0, 0, 0);
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 41px;
+  letter-spacing: 0%;
+  margin-bottom: 30px;
+}
+.hero3-p {
+  color: rgb(117, 115, 115);
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0%;
+  margin-bottom: 60px;
+}

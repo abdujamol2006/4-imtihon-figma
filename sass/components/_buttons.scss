@@ -1,0 +1,73 @@
+.main_btn1 {
+  /* Rectangle 2 */
+  width: 153px;
+  height: 55px;
+
+  background-image: linear-gradient(
+    to right,
+    #83a4d4 0%,
+    #b6fbff 51%,
+    #83a4d4 100%
+  );
+
+  transition: 1s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  display: block;
+}
+
+.main_btn1 :hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+.btn_p1 {
+  color: rgb(52, 201, 182);
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0%;
+}
+.main_btn2 {
+  /* Rectangle 3 */
+  width: 260px;
+  height: 55px;
+  background: Rgb(255, 255, 255);
+}
+.main_btn2 :hover {
+  width: 260px;
+  height: 55px;
+  background: Rgb(192, 242, 255);
+}
+.btn_p2 {
+  color: rgb(0, 0, 0);
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0%;
+}
+.buttons {
+  display: flex;
+  gap: 25px;
+}
+.hero3-btn {
+  width: 153px;
+  height: 55px;
+  background: rgb(52, 201, 182);
+}
+.hero3-btn :hover {
+  width: 153px;
+  height: 55px;
+  background: Rgb(192, 242, 255);
+}
+.hero3-btn-p {
+  color: white;
+  font-family: Roboto;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0%;
+}
